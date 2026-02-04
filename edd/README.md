@@ -105,7 +105,7 @@ projects/edd/
 pip install -r requirements.txt
 
 # Set OpenAI API key
-export OPENAI_API_KEY="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"
+export OPENAI_API_KEY=""
 ```
 
 ## Usage
