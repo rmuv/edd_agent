@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Generated Output and Logs
+output/
+logs/
+docs/
+__pycache__/
+*.pyc
+
+# Local trace files if generated at root
+trace_*.json
+*.mmd
