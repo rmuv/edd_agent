@@ -16,7 +16,7 @@ def validate_response(expected: Dict, actual: Dict) -> List[str]:
         )
 
     # 2. Opt-out Instruction Validation
-    body = act_msg.get("body", "").lower()
+    body = (act_msg.get("body") or "").lower()
     channel = act_msg.get("channel")
 
     if channel == "sms" and "stop" not in body:

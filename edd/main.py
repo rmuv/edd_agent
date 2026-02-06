@@ -80,7 +80,7 @@ def main():
     output_dir = Path("output")
     output_dir.mkdir(exist_ok=True)
     with open(output_dir / "results_orchestrator.json", "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2)
+        json.dump(results, f, indent=2, ensure_ascii=False)
 
     print("✅ Results saved to output/results_orchestrator.json")
     print("🔍 Trace report generated at output/logs/trace_report.html")

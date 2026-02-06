@@ -5,6 +5,7 @@
 venv/
 env/
 .venv/
+.env
 
 # Generated Output and Logs
 output/
