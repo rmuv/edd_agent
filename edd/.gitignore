@@ -13,6 +13,8 @@ logs/
 docs/
 __pycache__/
 *.pyc
+eval_report.txt
+eval_findings.json
 
 # Local trace files if generated at root
 trace_*.json
